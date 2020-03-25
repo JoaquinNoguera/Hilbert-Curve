@@ -86,24 +86,24 @@ function App(){
             while(number.length !== 0){   
                 switch(number.slice(0, 2)){
                     case '00':{
-                        x += newSize * directions[letter].points[0][0];
-                        y += newSize * directions[letter].points[0][1];
+                        x += newSize * directions[letter].points[0][0] * (1 + 0.25 / Math.pow(3,order - 1));
+                        y += newSize * directions[letter].points[0][1] * (1 + 0.25 / Math.pow(3,order - 1));
                         letter = directions[letter].rotateRigth;
                         break;
                     }
                     case '01':{
-                        x += newSize * directions[letter].points[1][0];
-                        y += newSize * directions[letter].points[1][1];
+                        x += newSize * directions[letter].points[1][0] * (1 + 0.25 / Math.pow(3,order - 1));
+                        y += newSize * directions[letter].points[1][1] * (1 + 0.25 / Math.pow(3,order - 1));
                         break;
                     }
                     case '10':{
-                        x += newSize * directions[letter].points[2][0];
-                        y += newSize * directions[letter].points[2][1];
+                        x += newSize * directions[letter].points[2][0] * (1 + 0.25 / Math.pow(3,order - 1));
+                        y += newSize * directions[letter].points[2][1] * (1 + 0.25 / Math.pow(3,order - 1));
                         break;
                     }
                     case '11':{
-                        x += newSize * directions[letter].points[3][0];
-                        y += newSize * directions[letter].points[3][1];
+                        x += newSize * directions[letter].points[3][0] * (1 + 0.25 / Math.pow(3,order - 1));
+                        y += newSize * directions[letter].points[3][1] * (1 + 0.25 / Math.pow(3,order - 1));
                         letter = directions[letter].rotateLeft;
                         break;
                     }
