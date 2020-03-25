@@ -1,4 +1,4 @@
-*{margin:0;padding:0}#container{min-height:100vh;min-width:100vw;display:flex;flex-direction:column;justify-content:center;text-align:center}#container canvas{margin:auto;display:flex;background:#fff;width:512px;height:512px}
+*{margin:0;padding:0}#container{min-height:100vh;min-width:100vw;display:flex;flex-direction:column;justify-content:center;text-align:center}#container input{height:30px;width:100vw}#container button{height:30px;width:100vw}#container canvas{margin:auto;display:flex;background:#f9f9f9;width:512px;height:512px}@media only screen and (min-device-height: 320px) and (max-device-height: 556px){#container canvas{width:300px;height:300px}}@media only screen and (min-device-width: 320px) and (max-device-width: 556px){#container canvas{width:300px;height:300px}}
 
 
 /*# sourceMappingURL=main.css.map*/
